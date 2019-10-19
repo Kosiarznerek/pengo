@@ -1,0 +1,74 @@
+﻿#container {
+    width: 608px;
+    margin: 0 auto;
+    background-color: #000000;
+    position: relative;
+}
+
+#container #main {
+    z-index: 999;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#gameCanvas {
+    text-align: center;
+    background-image: url('../graphics/borderPattern.png');
+    background-position: center;
+    background-size: contain;
+    width: 608px;
+    height: 342px;
+    position: relative;
+}
+
+#gameCanvas #canvas {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#bottomBar {
+    background-image: url('../graphics/bottomBar.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 608px;
+    height: 30px;
+}
+
+#topBar {
+    width: 608px;
+    height: 24px;
+    background-color: #000000;
+}
+
+#topBar #playerLifes {
+    float: left;
+}
+
+#topBar #playerLifes div {
+    display: inline-block;
+    width: 36px;
+    height: 28px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('../graphics/pengo/lifes.png');
+}
+
+
+#topBar #amountOfOppenents {
+    float: right;
+}
+
+#topBar #amountOfOppenents div {
+    display: inline-block;
+    width: 36px;
+    height: 28px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('../graphics/opponent/amount.png');
+}

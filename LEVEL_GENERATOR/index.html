@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title></title>
+
+    <!-- STYLE -->
+    <link href="style/normalise.css" rel="stylesheet"/>
+    <link href="style/mainStyle.css" rel="stylesheet"/>
+
+    <!-- SCRIPTS -->
+    <script src="../globalLibrary.js"></script>
+    <script src="scripts/mainScript.js"></script>
+
+</head>
+<body>
+<div id="container">
+    <div id="gameMap">
+        <img id="levelBase" src="graphics/levelBases/level02.png"/>
+    </div>
+    <ul id="itemsList">
+        <li itemName="DIAMOND_BLOCK"><img src="graphics/diamondBlock.png"/></li>
+        <li itemName="ICE_BLOCK"><img src="graphics/iceBlock.png"/></li>
+        <li itemName="PENGO"><img src="graphics/pengo.png"/></li>
+        <li itemName="NONE"><img src="graphics/none.png"/></li>
+    </ul>
+
+    <div id="JSONContainer">
+        <textarea id="JSONdata"></textarea>
+        <button id="loadFromJSON">LOAD FROM JSON</button>
+    </div>
+</div>
+
+</body>
+</html>
